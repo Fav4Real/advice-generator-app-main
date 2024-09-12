@@ -38,6 +38,13 @@ button {
     margin-top: 2em;
     margin-left: 8.5em;
     bottom: 18em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 20px 10px rgba(0, 255, 136, 0.6);
+    transform: scale(1.1);
 }
 
 .advice-id {
