@@ -19,6 +19,7 @@ body {
 }
 
 #advice-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--DarkGrayishBlue);
@@ -37,7 +38,7 @@ button {
     background-color: var(--NeonGreen);
     margin-top: 2em;
     margin-left: 8.5em;
-    bottom: 18em;
+    margin-top: 19em;
     border: none;
     cursor: pointer;
 }
@@ -84,7 +85,6 @@ button:hover {
     }
 
     button {
-        bottom: 7em;
         margin-left: 14em;
     }
 
